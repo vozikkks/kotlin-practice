@@ -12,12 +12,9 @@ This project also includes a **Kotlin Basics** section that covers fundamental c
 - Higher-order Functions
 - Coroutines (Asynchronous Programming)
 
-Run any `.kt` file using:
-```bash
-kotlin kotlin-basics/01_variables.kt
-
 
 tree for me
+```
 ├── README.md
 ├── automation-tests
 ├── gradle
