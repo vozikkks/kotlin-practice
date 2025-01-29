@@ -29,6 +29,16 @@ dependencies {
 
     // Use Kotlin Coroutines for asynchronous programming
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+
+    // Kaspresso
+    androidTestImplementation("com.kaspersky.android-components:kaspresso:1.5.2")
+
+    // Espresso Core
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    // Kakao (for better View interaction)
+    androidTestImplementation("io.github.kakaocup:kakao:3.1.0")
+    
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
