@@ -26,6 +26,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // Use Kotlin Coroutines for asynchronous programming
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
