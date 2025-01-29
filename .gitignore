@@ -1,0 +1,48 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Gradle build output
+/build/
+/.gradle/
+/out/
+/bin/
+/libs/
+
+# IntelliJ / VS Code settings
+.idea/
+/.vscode/
+/*.iml
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin-specific files
+*.class
+*.jar
+*.war
+*.ear
+*.kts
+
+# Test results
+/test-results/
+/reports/
+
+# Gradle wrapper files (optional, if you regenerate them frequently)
+/gradle/wrapper/gradle-wrapper.jar
+
+# Dependency caches
+/caches/
+/configuration-cache/
+
+# Temporary files
+/tmp/
